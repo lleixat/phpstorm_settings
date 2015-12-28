@@ -1,0 +1,55 @@
+<keymap version="1" name="Default copy" parent="$default">
+  <action id="$Copy">
+    <keyboard-shortcut first-keystroke="ctrl insert" />
+  </action>
+  <action id="ActivateProjectToolWindow">
+    <keyboard-shortcut first-keystroke="alt 1" />
+    <keyboard-shortcut first-keystroke="f12" />
+  </action>
+  <action id="ActivateStructureToolWindow">
+    <keyboard-shortcut first-keystroke="f7" />
+  </action>
+  <action id="CommentByBlockComment">
+    <keyboard-shortcut first-keystroke="shift ctrl colon" />
+  </action>
+  <action id="CommentByLineComment">
+    <keyboard-shortcut first-keystroke="ctrl colon" />
+  </action>
+  <action id="CopyAsPlainText">
+    <keyboard-shortcut first-keystroke="ctrl c" />
+  </action>
+  <action id="EditorSplitLine" />
+  <action id="EditorStartNewLineBefore" />
+  <action id="Images.Editor.ActualSize">
+    <keyboard-shortcut first-keystroke="ctrl slash" />
+  </action>
+  <action id="JumpToLastWindow" />
+  <action id="NextDiff" />
+  <action id="OverrideMethods" />
+  <action id="PhpGeneratePhpDocBlocks">
+    <keyboard-shortcut first-keystroke="ctrl o" />
+  </action>
+  <action id="PublishGroup.Upload">
+    <keyboard-shortcut first-keystroke="ctrl alt enter" />
+  </action>
+  <action id="RerunTests" />
+  <action id="StepInto" />
+  <action id="SwitchApply">
+    <keyboard-shortcut first-keystroke="shift alt enter" />
+  </action>
+  <action id="SwitchDown">
+    <keyboard-shortcut first-keystroke="shift alt down" />
+  </action>
+  <action id="SwitchLeft">
+    <keyboard-shortcut first-keystroke="shift alt left" />
+  </action>
+  <action id="SwitchRight">
+    <keyboard-shortcut first-keystroke="shift alt right" />
+  </action>
+  <action id="SwitchUp">
+    <keyboard-shortcut first-keystroke="shift alt up" />
+  </action>
+  <action id="intellij.frontendalignement.AlignItAction">
+    <keyboard-shortcut first-keystroke="shift alt r" />
+  </action>
+</keymap>

@@ -1,0 +1,6 @@
+<application>
+  <component name="TerminalOptionsProvider">
+    <option name="myShellPath" value="C:\Users\Tom\.babun\cygwin\bin\zsh.exe -i" />
+    <option name="mySoundBell" value="false" />
+  </component>
+</application>

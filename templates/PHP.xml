@@ -1,0 +1,73 @@
+<templateSet group="PHP">
+  <template name="vdd" value="echo '&lt;pre&gt;';&#10;var_dump($VAR$);&#10;echo '&lt;/pre&gt;';&#10;die('$info$');&#10;" description="var dump die" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="var" alwaysStopAt="true" />
+    <variable name="info" expression="" defaultValue="die HERE" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="pecho" value="&lt;?php echo $END$ ?&gt;" description="expant php echo" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="if" value="if($VAR$) {&#10;    $END$&#10;}" description="fucking if" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Bash" value="false" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="PHP" value="true" />
+      <option name="PHP String Literal" value="false" />
+    </context>
+  </template>
+  <template name="php" value="&lt;?php $END$ $CLOSE_TAG$" description="php tag" toReformat="false" toShortenFQNames="true">
+    <variable name="CLOSE_TAG" expression="" defaultValue="?&gt;" alwaysStopAt="false" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="pif" value="&lt;?php if($COND$) { ?&gt;&#10;$END$&#10;&lt;?php } ?&gt;&#10;" description="&lt;?php if(...) { ?&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="COND" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+      <option name="PHP Comment" value="false" />
+    </context>
+  </template>
+  <template name="pife" value="&lt;?php if($COND$) { ?&gt;&#10;$END$&#10;&lt;?php } else { ?&gt;&#10;&lt;?php } ?&gt;&#10;" description="&lt;?php if(...) { ?&gt;... &lt;?php } else { ?&gt; ..." toReformat="false" toShortenFQNames="true">
+    <variable name="COND" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+      <option name="PHP Comment" value="false" />
+    </context>
+  </template>
+  <template name="pfore" value="&lt;?php foreach($ARRAY$ as $KEY$ =&gt; $VALUE$) { ?&gt;&#10;$END$&#10;&lt;?php } ?&gt;&#10;" description="&lt;?php foreach(...) { ?&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="ARRAY" expression="" defaultValue="$array" alwaysStopAt="true" />
+    <variable name="KEY" expression="" defaultValue="$k" alwaysStopAt="true" />
+    <variable name="VALUE" expression="" defaultValue="$v" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+      <option name="PHP Comment" value="false" />
+    </context>
+  </template>
+  <template name="pelse" value="&lt;?php } else { ?&gt;&#10;$END$&#10;&lt;?php } ?&gt;&#10;" description="&lt;?php if(...) { ?&gt;..." toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+      <option name="PHP Comment" value="false" />
+    </context>
+  </template>
+</templateSet>

@@ -1,0 +1,41 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="6588d5a9-ed5f-47b4-8969-8a99930e8a00" name="signature" url="http://thomaslleixa.fr/signature/">
+        <fileTransfer host="ssh.alwaysdata.com" port="22" rootFolder="/home/thomaslleixa/www/signature" accessType="SFTP" password="dfcddf99df99dfc1dfc3dfc4dfd9dfc3dfcedfcf" username="thomaslleixa">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="66870ebb-1e39-445c-870a-4123ad37b9e8" name="Box_domo_partenaire" url="http://domofinance.partenaire.dev/">
+        <fileTransfer host="127.0.0.1" port="2222" rootFolder="/var/www/partenaire" accessType="SFTP" password="dfdcdfcbdfcddfd8dfcbdfc4dfde" username="vagrant">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="a8d2970e-5aa9-4bee-88cd-4c70793e780e" name="Domo Backend" url="http://domofinance.backend.dev/">
+        <fileTransfer host="192.168.33.12" port="22" rootFolder="/var/www/" accessType="SFTP" username="vagrant">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="1b05d9a5-c567-4e35-bb2f-431ba11aa3f7" name="DomoBackend" url="http://domofinance.backend.dev/">
+        <fileTransfer host="domofinance.backend.dev" port="22" rootFolder="/var/www/" accessType="SFTP" username="vagrant">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="6881f5d4-6b6d-44c0-b273-8f746caa23ba" name="Box_LGB" url="http://admin.lgb.dev">
+        <fileTransfer host="admin.lgb.dev" port="22" rootFolder="/var/www" accessType="SFTP" username="user_dev">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</application>

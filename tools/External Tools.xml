@@ -1,0 +1,16 @@
+<toolSet name="External Tools">
+  <tool name="Clear-cache" description="Clear Cache" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="true" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="rm" />
+      <option name="PARAMETERS" value="-rf cache/*" />
+      <option name="WORKING_DIRECTORY" value="D:/Trunk/Domofinance" />
+    </exec>
+  </tool>
+  <tool name="vagrant up" description="start vagrant for current project" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="true" synchronizeAfterRun="false">
+    <exec>
+      <option name="COMMAND" value="C:\Users\Tom\.babun\cygwin\home\ThomasL\.local\bin\vup" />
+      <option name="PARAMETERS" value="$ProjectFileDir$" />
+      <option name="WORKING_DIRECTORY" value="C:/Users/Tom/.babun/cygwin/home/ThomasL" />
+    </exec>
+  </tool>
+</toolSet>

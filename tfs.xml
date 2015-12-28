@@ -1,0 +1,34 @@
+<application>
+  <component name="org.jetbrains.tfsIntegration.core.configuration.TFSConfigurationManager">
+    <option name="config">
+      <map>
+        <server uri="http://win-tfs:8080/tfs/">
+          <value>
+            <configuration>
+              <credentials>
+                <credentials>
+                  <domain>acelys.local</domain>
+                  <password>dffedfe6dfeb</password>
+                  <username>TLA</username>
+                </credentials>
+              </credentials>
+            </configuration>
+          </value>
+        </server>
+        <server uri="http://win-tfs:8080/tfs/AcelysJavaMobile/">
+          <value>
+            <configuration>
+              <credentials>
+                <credentials>
+                  <domain>WIN-TFS</domain>
+                  <password>dffedfe6dfeb</password>
+                  <username>TLA</username>
+                </credentials>
+              </credentials>
+            </configuration>
+          </value>
+        </server>
+      </map>
+    </option>
+  </component>
+</application>
